@@ -13,7 +13,7 @@ namespace MyLogin_24
 {
     public partial class MasterProduct : Form
     {
-        SqlConnection con = new SqlConnection("data source=.; initial catalog = MyPractice;Integrated Security=True; ");
+        SqlConnection con = new SqlConnection("data source=. ; initial catalog = MyPractice;Integrated Security=True; ");
         public MasterProduct()
         {
             InitializeComponent();
