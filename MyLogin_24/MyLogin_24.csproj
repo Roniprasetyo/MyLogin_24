@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSekoAris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSekoAris.Designer.cs">
+      <DependentUpon>FormSekoAris.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterProduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSekoAris.resx">
+      <DependentUpon>FormSekoAris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterProduct.resx">
       <DependentUpon>MasterProduct.cs</DependentUpon>
